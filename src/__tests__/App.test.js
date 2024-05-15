@@ -18,7 +18,7 @@ test("displays the dog image after fetching", async () => {
     "https://images.dog.ceo/breeds/bulldog-english/mami.jpg"
   );
 });
-
+react-hooks-simple-data-fetching-lab
 test("displays a loading message before fetching", async () => {
   render(<App />);
   expect(screen.queryByText(/Loading/)).toBeInTheDocument();
